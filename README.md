@@ -1,6 +1,6 @@
 This profile collects all the code for my Master thesis "An OS-level adaptive thread pool scheme for I/O-heavy workloads".
 
-### linux-kerne
+### linux-kernel
 the patch that adds tracesets capability to the linux kernel
 
 ### scaling-adapter: 
