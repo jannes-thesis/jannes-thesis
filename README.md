@@ -1,4 +1,10 @@
 This profile collects all the code for my Master thesis "An OS-level adaptive thread pool scheme for I/O-heavy workloads".
+https://repository.tudelft.nl/islandora/object/uuid%3A5c9b4c42-8fdc-4170-b978-f80cd8f00753?collection=education
+
+## Abstract
+Thread pools are a pervasive building block for concurrent applications, but their optimal size is often tedious to determine or it changes during execution. Many modern systems use dedicated thread pools for operations that are restricted to a specific resource (e.g IO-bound), their performance can be correlated to OS metrics such as disk throughput. We propose an OS-level adaptive scheme for disk-IO workloads that can act as drop-in replacement for such use cases. Our approach often performs close to optimally tuned fixed-size pools, while being prone to fluctuations in the chosen target metric. The results warrant further exploration of more sophisticated OS metrics and the development of more tightly integrated global in-kernel implementations.
+
+## Repositories
 
 ### linux-kernel
 the patch that adds tracesets capability to the linux kernel
